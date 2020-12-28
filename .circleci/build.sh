@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 echo "Cloning dependencies"
-git clone --depth=1 https://github.com/https://github.com/fluenzi/android_kernel_realme_sdm710/ -b lineage18.1 kernel
+git clone --depth=1 https://github.com/fluenzi/android_kernel_realme_sdm710/ -b lineage18.1 kernel
 cd kernel
 git clone --depth=1 https://github.com/kdrag0n/proton-clang clang
 git clone --depth=1 https://github.com/stormbreaker-project/AnyKernel3  AnyKernel
