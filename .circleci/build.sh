@@ -1,9 +1,9 @@
 #!/usr/bin/env bash
 echo "Cloning dependencies"
-git clone --depth=1 https://github.com/fluenzi/android_kernel_realme_sdm710/ -b lineage18.1 kernel
+git clone --depth=1 https://github.com/fluenzi/android_kernel_realme_sdm710/ -b lineage-18.1 kernel
 cd kernel
 git clone --depth=1 https://github.com/kdrag0n/proton-clang clang
-git clone --depth=1 https://github.com/stormbreaker-project/AnyKernel3  AnyKernel
+git clone --depth=1 https://github.com/stormbreaker-project/AnyKernel3 -b rmx1851  AnyKernel
 git clone --depth=1 https://android.googlesource.com/platform/system/libufdt libufdt
 echo "Done"
 IMAGE=$(pwd)/out/arch/arm64/boot/Image.gz-dtb
